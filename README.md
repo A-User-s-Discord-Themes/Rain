@@ -5,7 +5,7 @@ A new design to the splash screen
 
 
 ## Settings
-Currently you can acess the settings only opening `splash.css` and modifying the values.
+For now you can acess the settings opening `splash.css` and modifying the vars since powercord doesn't have settings for themes.
 
 ## Installation
 Before installing the theme, make sure that you have powercord installed. [Instructions here](https://powercord.dev/installation).
