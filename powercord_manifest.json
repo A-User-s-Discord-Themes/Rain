@@ -1,0 +1,10 @@
+{
+    "name": "Rain",
+    "description": "A new design to the splash screen",
+    "version": "1.0",
+    "author": "A user#0001",
+    "license": "GNU GPL",
+    "theme": "useless.css",
+    "splashTheme": "splash.css",
+    "consent": "false"
+}

@@ -1,0 +1,89 @@
+:root{
+    --background: url("https://cdn.discordapp.com/attachments/539180316447997974/718572937179037776/ezgif.com-video-to-gif.gif");
+}
+
+/* Main */
+#splash{
+    background:var(--background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+
+#splash .splash-inner video.loaded{
+    display: none;
+}
+
+#splash .splash-inner .splash-text{
+    position: absolute;
+    top:30px;
+    left:0;
+    width: 100%;
+}
+
+#splash .splash-inner .splash-text > span.splash-status{
+    font-style: normal;
+    font-weight: 600;
+    text-transform: unset;
+}
+
+/* Prog bar */
+
+.progress{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+.progress .progress-bar{
+    width:100%;
+    height: 25px;
+    border-radius: 0;
+    background: #fff1;
+}
+
+.progress .progress-bar .complete{
+    border-radius: 0;
+    background: #fff1;
+    box-shadow: unset;
+    margin:auto;
+}
+
+/* Download linux update */
+.splash-inner-dl{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+}
+
+#splash .splash-inner-dl .dl-select-frame .Select-control{
+    border: none;
+    background: #fff2;
+}
+
+:root .is-open > .Select-control{
+    border-radius: 4px 4px 0 0 !important;
+}
+
+#splash .splash-inner-dl .dl-select-frame .Select-menu-outer{
+    border:none;
+    background: #fff2;
+    margin-top: 0;
+}
+
+.is-focused:not(.is-open) > .Select-control{
+    box-shadow: unset;
+}
+
+#splash .splash-inner-dl .dl-select-frame .dl-button{
+    background: #fff2;
+}
+
+#splash .splash-inner-dl .dl-select-frame .dl-button:hover{
+    background: #fff3;
+}
+
+#splash .splash-inner-dl .dl-version-message{
+    display: none;
+}
