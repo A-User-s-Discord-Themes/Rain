@@ -5,7 +5,7 @@ A new design to the splash screen
 
 
 ## Settings
-For now you can acess the settings opening `splash.css` and modifying the vars since powercord doesn't have settings for themes.
+For now you can acess the settings opening `splash.css` and modifying the vars since powercord (and any mod client for discord) doesn't have settings for themes (spoiler: powercord devs have plans for doing that!).
 
 ## Installation
 Before installing the theme, make sure that you have powercord installed. [Instructions here](https://powercord.dev/installation).
