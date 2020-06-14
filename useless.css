@@ -1,5 +1,9 @@
 /*
 
-    This is only a blank file. Powercord can't load themes without a theme file for the main UI.
+    This is only a blank file. Check README if you wanna know why this file exists.
 
 */
+
+.i-suck::after{
+    content: "i suck a lot";
+}

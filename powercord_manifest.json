@@ -5,6 +5,5 @@
     "author": "A user#0001",
     "license": "GNU GPL",
     "theme": "useless.css",
-    "splashTheme": "splash.css",
-    "consent": "false"
+    "splashTheme": "splash.css"
 }
