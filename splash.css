@@ -1,5 +1,9 @@
 :root{
     --background: url("https://cdn.discordapp.com/attachments/539180316447997974/718572937179037776/ezgif.com-video-to-gif.gif");
+    --accent: #3f336e;
+    --accent-glass: #fff1;
+    --text-color: #fff;
+    --blur: 10px;
 }
 
 /* Main */
@@ -26,40 +30,44 @@
     font-style: normal;
     font-weight: 600;
     text-transform: unset;
+    color: var(--text-color);
 }
 
 /* Prog bar */
 
 .progress{
     position: fixed;
-    bottom:0;
-    left:0;
-    width: 100%;
+    bottom:30px;
+    left:30px;
+    width: calc(100% - 60px);
 }
 .progress .progress-bar{
     width:100%;
-    height: 25px;
-    border-radius: 0;
-    background: #fff1;
+    height: 10px;
+    border-radius: 10px;
+    background: var(--accent-glass);
+    overflow: hidden;
+    backdrop-filter: blur(calc(var(--blur) / 2));
 }
 
 .progress .progress-bar .complete{
     border-radius: 0;
-    background: #fff1;
+    background: var(--accent);
     box-shadow: unset;
-    margin:auto;
 }
+
 
 /* Download linux update */
 .splash-inner-dl{
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(var(--blur));
+    animation: fade .2s ease;
 }
 
 #splash .splash-inner-dl .dl-select-frame .Select-control{
     border: none;
-    background: #fff2;
+    background: var(--accent-glass);
 }
 
 :root .is-open > .Select-control{
@@ -68,7 +76,7 @@
 
 #splash .splash-inner-dl .dl-select-frame .Select-menu-outer{
     border:none;
-    background: #fff2;
+    background: var(--accent-glass);
     margin-top: 0;
 }
 
@@ -77,13 +85,25 @@
 }
 
 #splash .splash-inner-dl .dl-select-frame .dl-button{
-    background: #fff2;
+    background: var(--accent-glass);
 }
 
 #splash .splash-inner-dl .dl-select-frame .dl-button:hover{
-    background: #fff3;
+    background: var(--accent);
+    cursor: pointer;
+}
+
+#splash .splash-inner-dl .dl-select-frame .Select-option.is-focused{
+    background: var(--accent);
 }
 
 #splash .splash-inner-dl .dl-version-message{
     display: none;
+}
+
+/* Animations */
+
+@keyframes fade{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
 }
