@@ -24,5 +24,9 @@ Because powercord is the unique mod client that has support for styling the spla
 `#2` Why a [useless.css](useless.css) file exists?<br>
 Powercord only loads themes if it has a key for changing the discord's main interface. So i created the useless.css file to pass this "protection".
 
+`#3` I can just download zip from github?<br>
+If you don't care about having a outdated version in case of updates, yes you can<br>
+**Explanation:** Powercord Updater uses git to update themes and plugins. It is recomended to use git to download powercord themes and plugins since downloading ZIP from github doesn't adds git metadatas.
+
 ## Extras
 [Discord server](https://discord.gg/jGmSTkk)
