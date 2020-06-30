@@ -1,3 +1,4 @@
+![GitHub](https://img.shields.io/github/license/A-User-s-Discord-Themes/Rain?style=flat-square) ![Discord](https://discordapp.com/api/guilds/662100872406499348/embed.png)
 # Rain
 A new design to the splash screen
 
